@@ -1,18 +1,4 @@
-/* 
- ******************************************************************************
- *                               mm.c                                *
 
-This C code implements a 64-bit memory allocator using an explicit free list 
-and a best-fit allocation policy. It provides custom implementations of mall
-oc, free, realloc, and calloc, with additional internal functions for managing
- the heap, such as coalescing and extending the heap.          *
- *                  15-213: Introduction to Computer Systems                  *
- *                                                                            *
- *  ************************************************************************  *
-
- */
-
-/* Do not change the following! */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -35,7 +21,7 @@ oc, free, realloc, and calloc, with additional internal functions for managing
 #define memcpy mem_memcpy
 #endif /* def DRIVER */
 
-/* You can change anything from here onward */
+
 
 /*
  * If DEBUG is defined, enable printing on dbg_printf and contracts.
